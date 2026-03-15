@@ -12,7 +12,7 @@ Hybrid Operators: Combining BashOperator (for system-level tasks) and PythonOper
 
 🏗️ The Pipeline Architecture
 The DAG (Directed Acyclic Graph) consists of three primary stages:
-
+![Airflow DAG Graph](screenshots/airflow_graph.png)
 1. Extract (extract_task)
 Technology: BashOperator + wget
 
